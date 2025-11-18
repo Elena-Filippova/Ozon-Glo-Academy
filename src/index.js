@@ -1,5 +1,11 @@
-import cart from '../src/modules/cart'
-import second from '../src/modules/second'
+import cart from './modules/cart'
+import load from './modules/load'
+import search from './modules/search'
+import catalog from './modules/catalog'
+import price from './modules/price'
 
 cart()
-second()
+load()
+search()
+catalog()
+price()
